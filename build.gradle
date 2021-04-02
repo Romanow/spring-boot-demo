@@ -29,12 +29,13 @@ repositories {
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web"
     implementation "org.springframework.boot:spring-boot-starter-logging"
-//    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
 
-//    implementation "org.postgresql:postgresql"
-//    implementation "org.apache.commons:commons-lang3"
+    implementation "org.postgresql:postgresql"
+    implementation "org.apache.commons:commons-lang3"
 
-//    implementation "org.springdoc:springdoc-openapi-webmvc-core:${openApiVersion}"
+    implementation "org.springdoc:springdoc-openapi-webmvc-core:${openApiVersion}"
 
     compileOnly "com.google.code.findbugs:jsr305:$fingBugsVersion"
     compileOnly "org.projectlombok:lombok"
